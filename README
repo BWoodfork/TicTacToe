@@ -1,1 +1,9 @@
-My Tic Tac Toe Game
+Hey Dave, what’s up bro? If you’re reading this, it means I’ve began code on my tictactoe game and have gotten stuck. So, feel free to add notes here with any helpful hints towards what my next move should be =)
+
+So, as you'll see I'm not very far in my game, but the good thing is I actually coded everything there from scratch on my own. But onto the part that I'm stuck on..
+
+Here's a quick summary of what I've done so far: I created my class of "board", then created a test for 9 empty spaces & made the method for it in my board file. After that, I created a test for filling a space with a token. Once I realized that I would need my "empty_spaces" throughout the game, I called the initialize method on it and set it to 9 empty spaces. I also realized that I would need to be able to read and write to my board, hence the reason I created the attr_accessor method on empty_spaces. Within my method "fill_space", it has two arguments, 'place, token' for the position of where the token will be and the token itself. I used my empty_spaces method here and I need to be able to fill an "X" or "O" into a space on the board. So that's where I am now.....That wasn't as short of an explaination as I predicted, my bad. 
+
+As you can see, I called the attr_accessor method for the empty space of my board. Now, when I test this, it returns an array of 9 empty spaces. What I want it to do, is return an "X", with 8 empty arrays after that. Is this a good approach to take so far? 
+
+Feel free to edit this README with any thoughts or just shoot them over in an email. 
