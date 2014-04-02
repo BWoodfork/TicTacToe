@@ -1,9 +1,7 @@
 class Game
-  def start_game
-    "What token are you?"
+  def initialize(board)
+    @board = board
   end
-  
-  def what_token
-    'X'
-  end
+
+
 end
